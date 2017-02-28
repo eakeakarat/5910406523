@@ -1,5 +1,5 @@
 /*
- * Initializing the elements of an array to zeros.
+ * Initializing the elements of an array with an initailizer list.
  * To compile:
  * $ gcc fig06_04.c -o fig06_04 -std=c11
  */
