@@ -52,29 +52,29 @@
     }
     ~~~~
     
-### การหา ห.ร.ม. (GCD)
+### การหา ห.ร.ม. (GCD) ###
   - FUNCTION CODE :
     ~~~~
     #include <stdio.h>
     
     int gcd (int max, int min)
     {
-      int mod;
+        int mod;
 
-      mod = max%min;
-      while (mod != 0){
-        max = min;
-        min = mod;
         mod = max%min;
-      }
+        while (mod != 0){
+            max = min;
+            min = mod;
+            mod = max%min;
+        }
 
-      return min;
+        return min;
     }
     ~~~~
     
-  **อาจประกาศ type ของ parameter ให้เป็น unsigned int ก็ได้ แล้วแต่ความเหมาะสม**
+  **หมายเหตุ : อาจประกาศ type ของ parameter ให้เป็น unsigned int ก็ได้ แล้วแต่ความเหมาะสม**
   
-### การหา ค.ร.น. (LCM)
+### การหา ค.ร.น. (LCM) ###
   - FUNCTION CODE :
     ~~~~
     #include <stdio.h>
@@ -99,9 +99,9 @@
     }
     ~~~~
     
-  **อาจประกาศ type ของ parameter ให้เป็น unsigned int ก็ได้ แล้วแต่ความเหมาะสม**
+  **หมายเหตุ : อาจประกาศ type ของ parameter ให้เป็น unsigned int ก็ได้ แล้วแต่ความเหมาะสม**
   
-## การหาลำดับ Fibonacci ###
+### การหาลำดับ Fibonacci ###
   - FUNCTION CODE :
     ~~~~
     #include <stdio.h>
@@ -112,3 +112,33 @@
         return ( pow(1+sqrt(5),n) - pow(1-sqrt(5),n) ) / (pow(2,n) * sqrt(5)) ;
     }
     ~~~~
+
+### การหาเศษจากการหารจำนวนทศนิยม ###
+  - ใช้ฟังก์ชั่น fmod ใน Library math.h
+  - Example
+    ~~~~
+    #include <stdio.h>
+    #include <math.h>
+    
+    int main()
+    {
+        printf("Mod of 3.14 with 1.2 = %.2f", fmod(3.14, 1.2));
+    }
+    ~~~~
+    
+    **หมายเหตุ : fmod ใช้กับจำนวนประเภท ทศนิยม เท่านั้น**
+    
+### การหาค่าสัมบูรณ์ของตัวเลข ###
+  - ใช้ฟังก์ชั่น abs ใน Library stdlib.h
+  - Example
+    ~~~~
+    #include <stdio.h>
+    #include <stdlib.h>
+    
+    int main()
+    {
+        printf("Absolute value of -5 is %d", abs(5));
+    }
+    ~~~~
+    
+    **หมายเหตุ : abs ใช้กับจำนวนประเภท integer เท่านั้น**
