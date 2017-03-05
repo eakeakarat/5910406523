@@ -1,6 +1,6 @@
 //c0004
 // by @dottydaily
-// status: waiting for approval
+// status: Approved by @Tanamet
 
 #include <stdio.h>
 
