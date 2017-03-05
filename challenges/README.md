@@ -7,24 +7,24 @@
 
 ### ตัวอย่าง 1 ###
 
-What do you want to find?
->> f
-Input s =  5
-Input S =  5
-f = 2.5
+>What do you want to find?
+>Wanna find : f
+>Input s =  5
+>Input S =  5
+>f = 2.5
 
 ### ตัวอย่าง 2 ###
 
-What do you want to find?
->> s
-Input f =  2.5
-Input S =  5
-s = 5
+>What do you want to find?
+>Wanna find : s
+>Input f =  2.5
+>Input S =  5
+>s = 5
 
 ### ตัวอย่าง 3 ###
 
-What do you want to find?
->> S
-Input f =  8
-Input s =  10
-S = 40
+>What do you want to find?
+>Wanna find : S
+>Input f =  8
+>Input s =  10
+>S = 40
