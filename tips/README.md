@@ -11,3 +11,6 @@
 
 ### sorting ###
 *   ตัวอย่างการใช้ Bubble Sort เรียงค่าน้อยไปมาก , มากไปน้อย
+
+### string ###
+*   How to working with String
