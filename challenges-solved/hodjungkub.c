@@ -8,7 +8,6 @@ int main(){
     int running=True;
     double n,x,y;
     char command[5];
-    printf("test\n");
     scanf("%lf",&n);
     x = n; y = n;
     while(running){
@@ -25,9 +24,9 @@ int main(){
         }
         scanf("%s",&command);
             if (strcmp(command,"up")==0) y-=(y<2?0:1);
-            else if (strcmp(command,"down")==0) y+=(y>4?0:1);
+            else if (strcmp(command,"down")==0) y+=(y>n-1?0:1);
             else if (strcmp(command,"left")==0) x-=(x<2?0:1);
-            else if (strcmp(command,"right")==0) x+=(x>4?0:1);
+            else if (strcmp(command,"right")==0) x+=(x>n-1?0:1);
             else if (strcmp(command,"stop")==0) running=False;
             else printf("Command not found\n");
     }
