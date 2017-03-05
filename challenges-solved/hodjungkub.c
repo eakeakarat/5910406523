@@ -1,4 +1,3 @@
-# Challenges Solved #
 //c0002
 #include <stdio.h>
 #include <String.h>
