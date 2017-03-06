@@ -1,5 +1,5 @@
 # How to generate a random data from Array #
-> by [inorinchan](https://github.com/inorinchan)
+> by [inorin](https://github.com/inorinchan)
 
 ## Random data from Array ##
 ในภาษา Python เราสามารถ สุ่มข้อมูลจาก Array ได้ง่ายๆ<br/>
