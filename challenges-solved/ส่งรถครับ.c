@@ -6,7 +6,7 @@ int main()
 	float pay=0,current=0,before;
 	printf("Input total passenger : ");
 	scanf("%d",&passenger);
-	if (passenger<=0){
+	if (passenger<=0 || passenger>10){
 		passenger=0;
 		printf(">> ERROR!!\n");
 	}
