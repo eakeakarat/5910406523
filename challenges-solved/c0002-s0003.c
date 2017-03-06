@@ -1,6 +1,7 @@
 // c0002
 // by @Tanamet
 // status: Approved by @poonyapat
+
 #include <stdio.h>
 #include <String.h>
 #define True 1
