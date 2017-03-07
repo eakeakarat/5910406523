@@ -1,5 +1,6 @@
-//Q.:Move Move by poonyapat c0002.md
-//A.:Kanon 5910406027
+// code c0002
+// by @	kopinw1234
+// status: waiting for approval
 #include <stdio.h>
 #include <string.h>
 int main(){
