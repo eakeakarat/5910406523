@@ -1,4 +1,6 @@
-// code c0004.md Jiratheep Sadakorn 5910406094
+// code c0004
+// by @junielism
+// status: waiting for approval
 #include <stdio.h>
 int main(){
 	float f,s,S;
