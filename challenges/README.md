@@ -8,3 +8,4 @@
 | c0003 | เอ๊ะ! แต่ละคนต้องจ่ายค่าแท็กซี่่เท่าไหร่นะ? | [dottydaily](https://github.com/dottydaily) | open | 1 | 1 | 1 |
 | c0004 | Lens | [Tanamet](https://github.com/Tanamet) | open | 2 | 1 | - |
 | c0005 | Researching on Mars เอเลี่ยนนับล้านที่ลอยอยู่บนท้องฟ้า | [poonyapat](https://github.com/poonyapat) | open | - | - | - |
+| c0006 | ผู้กล้าพิชิตสไลม์ | [inorin](https://github.com/inorinchan) | open | - | - | - |
