@@ -1,6 +1,6 @@
 // code c0004
 // by @junielism
-// status: waiting for approval
+// status: Approved by @Tanamet
 #include <stdio.h>
 int main(){
 	float f,s,S;
