@@ -1,6 +1,6 @@
 // code c0002
 // by @	kopinw1234
-// status: waiting for approval
+// status: Mission Failed
 #include <stdio.h>
 #include <string.h>
 int main(){
