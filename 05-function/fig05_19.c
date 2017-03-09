@@ -1,7 +1,7 @@
 /*
  * Recursive fibonacci function
  * To compile:
- * $ gcc fig05_19.c -o fig05_19 -std=c11
+ * $ gcc fig05_19.c -o fig05_19 
  */
 #include <stdio.h>
 
