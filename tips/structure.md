@@ -1,7 +1,9 @@
 # Structure #
 > by [poundtheerapat](https://github.com/poundtheerapat)
 
-struct ทำหน้าที่คล้ายๆ class ใน python นั่นคือทำหน้าที่เหมือนเป็นแม่พิมพ์ โดยเราสามารถให้คนที่เราต้องการให้ใช้มาใช้เเเม่พิมพ์ของเราในการทำงานได้
+Structure เป็นวิธีการเก็บตัวแปรหลากชนิดให้อยู่เป็นกลุ่มก้อนเดียวกัน ทำให้สามารถแยกโปรแกรมออกเป็นหน่วย ซึ่งแก้ไขได้ง่ายเพราะสามารถแยกฟังก์ชันและตัวแปรออกเป็นหน่วยๆ
+
+### Syntax ###
 ```c
 struct [structure tag] {
    member definition;
@@ -11,20 +13,66 @@ struct [structure tag] {
 } [one or more structure variables];  
 ```
 
-**Example :**
+### Example สร้างผ่านตัวแปร ###
+
 ```c
-struct animal{ //กำหนดแม่พิมพ์ใช้ชื่อว่า animal โดย animal มี leg เก็บไว้ให้ใช้
-	int leg;
+struct student{
+   char *first;
+   char *last;
+   char SSN[9];
+   float gpa;
+   char **classes;
 };
+int main()
+{
+	struct student a;
+}
+```
+
+### Example สร้างโดยตรง ###
+
+```c
+int main()
+{
+	{
+	    char *first;
+	    char *last;
+	    char SSN[10];
+	    float gpa;
+	    char **classes;
+	} student_a;
+}
+```
+
+### Example สร้างผ่าน typedef ###
+```c
+typedef struct
+{
+    char *first;
+    char *last;
+    char SSN[9];
+    float gpa;
+    char **classes;
+} student;
 
 int main()
 {
-  struct animal a; // a จะมาใช้ animal ในการสร้าง leg ของ a
-  a.leg = 1;
-  struct animal b;// b ก็จะมาใช้ animal ในการสร้าง leg ของ b
-  b.leg = 2;
+	student student_a;
+}
+```
 
-  printf("%d %d", a.leg, b.leg);
-  // Output: 1 2  
+### การเข้าถึงตัวแปร ###
+ในการเข้าถึงตัวแปรใช้การเติม.ต่อท้ายชื่อ ของตัวแปรนั้นๆ
+```c
+typedef struct{
+    int month, day, year;
+} Date;
+
+void main() {
+	Date d1;
+
+	d1.month = 12;
+	d1.day = 2;
+	d1.year = 1970;
 }
 ```
