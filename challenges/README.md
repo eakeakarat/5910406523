@@ -11,3 +11,4 @@
 | c0006 | ผู้กล้าพิชิตสไลม์ | [inorin](https://github.com/inorinchan) | open | - | - | - |
 | c0007 | จะได้ของเมื่อไหร่น้า | [robinker](https://github.com/robinker) | open | - | - | - |
 | c0008 | let's guess! | [poundtheerapat](https://github.com/poundtheerapat) | open | - | - | - |
+| c0009 | Com Sci ตัวร้ายกับยัยสอนคณิต | [Narongrit634](https://github.com/Narongrit634) | - | - | - |
