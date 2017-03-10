@@ -14,3 +14,4 @@
 | c0009 | Com Sci ตัวร้ายกับยัยสอนคณิต | [Narongrit634](https://github.com/Narongrit634) | - | - | - |
 | c0010 | Find the most of your expense. | [dottydaily](https://github.com/dottydaily) | open | - | - | - |
 | c0011 | Find the most of your income and expense. | [dottydaily](https://github.com/dottydaily) | open | - | - | - |
+| c0012 | คูณ 999 หลัก | [poonyapat](https://github.com/poonyapat) | open | - | - | - |
