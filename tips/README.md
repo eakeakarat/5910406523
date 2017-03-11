@@ -23,3 +23,6 @@
 
 ### character-function ###
 *   ฟังก์ชันที่ใช้ตรวจสอบ character
+
+### cmd-run_code ###
+*   Run code ผ่าน cmd บน windows
