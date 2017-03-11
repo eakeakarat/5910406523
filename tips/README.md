@@ -20,3 +20,6 @@
 
 ### structure ###
 *   ตัวอย่างการใช้งาน struct
+
+### character-function ###
+*   ฟังก์ชันที่ใช้ตรวจสอบ character
