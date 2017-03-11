@@ -1,6 +1,6 @@
 // code c0003
 // by @Briingz
-// status: waiting for approval
+// status: Mission Failed
 
 #include <stdio.h>
 int main()
