@@ -4,6 +4,8 @@
 
 ### math-code ###
 *   เทคนิคหรือเคล็ดลับของโค้ดการคำนวณที่มักเจอบ่อย
+#### division ####
+*   การหาร integer vs float
 
 ### standard-input-output ###
 *   การรับค่าจาก standard input
