@@ -4,7 +4,7 @@
 ## Open ##
 | Code | Title | Author | Challengers | Finishers | Mission Failed |
 | ------ | ------- | -------- | :-------: | :-------: | :-----: |
-| c0001 | The Most Delicious Dessert of The World | [poonyapat](https://github.com/poonyapat) | open | - | - | - |
+| c0001 | The Most Delicious Dessert of The World | [poonyapat](https://github.com/poonyapat) | - | - | - |
 | c0002 | Move Move | [poonyapat](https://github.com/poonyapat) | 3 | 3 | 2 |
 | c0003 | เอ๊ะ! แต่ละคนต้องจ่ายค่าแท็กซี่่เท่าไหร่นะ? | [dottydaily](https://github.com/dottydaily) | 2 | 1 | 2 |
 | c0005 | Researching on Mars เอเลี่ยนนับล้านที่ลอยอยู่บนท้องฟ้า | [poonyapat](https://github.com/poonyapat) | - | - | - |
