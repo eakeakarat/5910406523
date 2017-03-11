@@ -1,6 +1,6 @@
 // code c0011
-
 // by @Briingz
+// status: waiting for approval
 
 #include <stdio.h>
 
@@ -26,7 +26,7 @@ int main()
 			scanf("%f",&income);
 			if (income<1){
 				found=(1);break;}
-			allincome[i]=income;	
+			allincome[i]=income;
 		}
 		if(found==1)
 			printf("\nERROR");
@@ -42,14 +42,14 @@ int main()
 			avincome=totalin/5;
 
 
-		float expense,allexpense[31] ;	int m=0,day;			
+		float expense,allexpense[31] ;	int m=0,day;
 		for(i=0;i<31;i++)
 		allexpense[i]=0;printf("\nExpense :");
 		do{
-						
+
 				printf("\n>> Day : ");
 				scanf("%d",&day);
-				
+
 				if (day<0 || day>30){
 					printf("***** End *****\n");break;}
 
@@ -61,7 +61,7 @@ int main()
 
 			}while (day>0 && day<31);
 
-			int a,daymin,daymax,k=0; 
+			int a,daymin,daymax,k=0;
 			float min=5000000,max=0,totalex=0,avex ;
 
 			for(a=0;a<=30;a++){
@@ -95,7 +95,7 @@ int main()
 				printf("\nMax income : %.2f Baht. %02d/%02d/%d\n",maxin,daymaxcom,month,year);
 				printf("min income : %.2f Baht. %02d/%02d/%d\n",minin,daymincom,month,year);
 				printf("Max expense : %.2f Baht. %02d/%02d/%4d\n",max,daymax,month,year);
-				printf("Min expense : %.2f Baht. %02d/%02d/%4d\n",min,daymin,month,year);				
+				printf("Min expense : %.2f Baht. %02d/%02d/%4d\n",min,daymin,month,year);
 				printf("Avg income : %.2f Baht.\n",avincome);
 				printf("Avg expense : %.2f Baht.\n",avex);}
 
@@ -110,8 +110,8 @@ int main()
 		}
 
 
-		
-		
-	}	
+
+
+	}
 	return 0 ;
 }
