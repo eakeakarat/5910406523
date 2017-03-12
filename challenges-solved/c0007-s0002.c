@@ -1,6 +1,6 @@
 /*  c0007
-	To compile:
-	$ gcc c0007.c -o c0007
+	by @suphawimon
+	status: waiting for approval
 	*/
 #include <stdio.h>
 
