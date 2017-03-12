@@ -15,7 +15,7 @@
 | c0010 | Find the most of your expense. | [dottydaily](https://github.com/dottydaily) | - | - | - |
 | c0011 | Find the most of your income and expense. | [dottydaily](https://github.com/dottydaily) | 1 | - | - |
 | c0012 | คูณ 999 หลัก | [poonyapat](https://github.com/poonyapat) | - | - | - |
-| c0013 | LUCKY LOTTERY | [Pangeiei](https://github.com/Pangeiei) | 1 | - | - |
+| c0013 | LUCKY LOTTERY | [Pangeiei](https://github.com/Pangeiei) | 2 | - | - |
 | c0014 | รับน้ำอะไรดีคะ? | [Briingz](https://github.com/Briingz) | 1 | - | - |
 | c0015 | Concert Ticket | [pannakarn](https://github.com/pannakarn) | - | - | - |
 
