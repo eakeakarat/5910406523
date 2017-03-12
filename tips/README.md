@@ -28,3 +28,6 @@
 
 ### cmd-run_code ###
 *   Run code ผ่าน cmd บน windows
+
+### static-variable ###
+*   การ Declare variable แบบ static
