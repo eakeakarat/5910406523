@@ -1,4 +1,6 @@
-// c0007  //
+// c0007
+// by @pannakarn
+// status: waiting for approval
 
 #include <stdio.h>
 int main()
@@ -37,7 +39,7 @@ int main()
 		day_b = 0;
 	else if (b2 == 0 && b ==0)
 		day_b = 0;
-	else 
+	else
 	{
 		numb2 = b2*10;
 		while (numb2 < b)

@@ -1,4 +1,6 @@
 // c0013 LUCKY LOTTERY //
+// by @pannakarn
+// status: waiting for approval
 
 #include <stdio.h>
 int main()
@@ -27,14 +29,14 @@ int main()
 		money = 2000*how;
 		x = 3;
 	}
-	else if (your%100 == first%100) 
+	else if (your%100 == first%100)
 	{
 		money = 1000*how;
 		x = 4;
 	}
 	else
 		printf("Next time will be your turn MAY THE FORCE BE WITH YOU");
-	
+
 	if (money!=0)
 		printf("win %dnd prize %d baht", x , money);
 }

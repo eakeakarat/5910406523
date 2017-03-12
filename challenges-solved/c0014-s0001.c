@@ -1,4 +1,6 @@
-// c0014  //
+// c0014
+// by @pannakarn
+// status: waiting for approval
 
 #include <stdio.h>
 int main()
@@ -41,7 +43,7 @@ int main()
 						total = total+25;
 					printf("Do u want whipcream ?Y/N : ");
 					scanf(" %c" , &whip);
-					if (whip == 'Y' || whip == 'y' || whip == 'N' || whip == 'n') 
+					if (whip == 'Y' || whip == 'y' || whip == 'N' || whip == 'n')
 					{
 						if (whip == 'Y' || whip == 'y')
 						{
@@ -55,10 +57,10 @@ int main()
 					{
 						printf("ERROR GOODBYE");
 						break;
-					}	
+					}
 				}
 			}
-			else 
+			else
 			{
 				printf("ERROR GOODBYE");
 				break;
@@ -84,9 +86,9 @@ int main()
 			if (numDrink == 3)
 				printf("\nYou get a bottom of water.");
 		}
-		
+
 	}
-	
+
 	else
 		printf("ERROR GOODBYE");
 
